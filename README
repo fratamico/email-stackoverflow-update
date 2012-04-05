@@ -1,0 +1,3 @@
+In conjunction with the following cron job, will check a given stack overflow site and send specified user in the python file an email when the first reply has been posted.
+
+*/5 * * * * python /home/location_of_file/searchWeb.py >/dev/null 2>&1
